@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="min_button_width">300dp</dimen>
+    <dimen name="max_button_width">600dp</dimen>
+    <dimen name="screen_margin">20dp</dimen>
+    <dimen name="screen_margin_small">10dp</dimen>
+    <dimen name="recycler_view_padding">16dp</dimen>
+</resources>

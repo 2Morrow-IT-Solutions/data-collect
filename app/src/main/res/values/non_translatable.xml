@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Data Collect</string>
+    <string name="two_morrow_logo" translatable="false">two_morrow_logo</string>
+    <string name="key_about_the_app" translatable="false">key_about_the_app</string>
+    <string name="key_github" translatable="false">key_github</string>
+    <string name="key_linked_in" translatable="false">key_linked_in</string>
+    <string name="key_website" translatable="false">key_website</string>
+    <string name="key_open_source" translatable="false">key_open_source</string>
+    <string name="key_version_number" translatable="false">key_version_number</string>
+</resources>

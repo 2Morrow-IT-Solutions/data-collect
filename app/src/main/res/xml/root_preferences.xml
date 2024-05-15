@@ -1,0 +1,44 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory>
+
+        <Preference
+            android:key="@string/key_about_the_app"
+            android:layout="@layout/custom_preference"
+            android:title="@string/settings_about_the_app" />
+
+        <Preference
+            android:key="@string/key_github"
+            android:layout="@layout/custom_preference"
+            android:summary="https://github.com/2Morrow-IT-Solutions/data-collect"
+            android:title="@string/settings_github" />
+
+        <Preference
+            android:key="@string/key_linked_in"
+            android:layout="@layout/custom_preference"
+            android:summary="https://www.linkedin.com/company/2morrow-it/"
+            android:title="@string/settings_linked_in" />
+
+        <Preference
+            android:key="@string/key_website"
+            android:layout="@layout/custom_preference"
+            android:summary="https://2morrowit.com/"
+            android:title="@string/settings_website" />
+
+        <Preference
+            android:key="@string/key_open_source"
+            android:layout="@layout/custom_preference"
+            android:title="@string/settings_open_source" />
+
+        <Preference
+            android:key="@string/key_version_number"
+            android:layout="@layout/custom_preference"
+            android:title="@string/settings_version" />
+    </PreferenceCategory>
+
+    <Preference
+        android:enabled="true"
+        android:key="@string/two_morrow_logo"
+        android:layout="@layout/layout_by_2morrow"
+        android:selectable="false" />
+</PreferenceScreen>

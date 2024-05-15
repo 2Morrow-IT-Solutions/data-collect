@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.DataCollect" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowSplashScreenBackground" tools:targetApi="s">
+            @color/colorBackground
+        </item>
+        <item name="android:statusBarColor">@color/colorBackground</item>
+        <item name="android:navigationBarColor">@color/colorBackground</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+        <item name="preferenceTheme">@style/AppPreferenceTheme</item>
+    </style>
+
+    <style name="AppPreferenceTheme" parent="@style/PreferenceThemeOverlay.v14.Material">
+        <item name="android:fontFamily">@font/quicksand_regular</item>
+    </style>
+
+</resources>

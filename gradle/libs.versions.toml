@@ -1,0 +1,75 @@
+[versions]
+coreKtx = "1.13.1"
+appcompat = "1.6.1"
+material = "1.12.0"
+activity = "1.9.0"
+constraintlayout = "2.1.4"
+hilt_version = "2.49"
+lifecycle_version = "2.7.0"
+coroutines_version = "1.7.3"
+navigation_version = "2.7.7"
+fragment_version = "1.7.0"
+preference_version = "1.2.1"
+datastore_version = "1.1.1"
+splash_version = "1.1.0-rc01"
+
+#Testing libraries
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+
+#Plugins
+agp = "8.3.2"
+kotlin = "1.9.0"
+ksp_version = "1.9.0-1.0.12"
+
+[libraries]
+#Start Libraries
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+
+#Testing Libraries
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+
+#Lifecycle
+lifecycle-livedata = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycle_version" }
+lifecycle-viewmodel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle_version" }
+lifecycle-runtime = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle_version" }
+
+#Dagger-Hilt
+hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt_version" }
+dagger-compiler = { group = "com.google.dagger", name = "dagger-compiler", version.ref = "hilt_version" }
+hilt-compiler = { group = "com.google.dagger", name = "hilt-compiler", version.ref = "hilt_version" }
+
+#Coroutines
+coroutines = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines_version" }
+
+#Navigation
+navigation-fragment = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigation_version" }
+navigation-ui = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigation_version" }
+
+#Fragment
+fragment-ktx = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "fragment_version" }
+
+#Preferences
+androidx-preference = { group = "androidx.preference", name = "preference-ktx", version.ref = "preference_version" }
+
+#DataStore
+datastore = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "datastore_version" }
+
+#Core Splashscreen
+core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "splash_version" }
+
+[bundles]
+lifecycle = ["lifecycle-livedata", "lifecycle-viewmodel", "lifecycle-runtime"]
+
+[plugins]
+com-google-dagger-hilt-android = { id = "com.google.dagger.hilt.android", version.ref = "hilt_version" }
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp_version" }

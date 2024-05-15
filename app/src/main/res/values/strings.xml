@@ -1,0 +1,30 @@
+<resources>
+    <string name="home_title">Home</string>
+    <string name="settings_title">Settings</string>
+    <string name="application_version_code">Version Code: %1$s</string>
+    <string name="application_version_name">Version Name: %1$s</string>
+    <string name="application_size">Size: %1$s</string>
+    <string name="application_first_install">First Install: %1$s</string>
+    <string name="application_last_update">Last Update: %1$s</string>
+    <string name="settings_about_the_app">About the app</string>
+    <string name="settings_github">GitHub</string>
+    <string name="settings_linked_in">LinkedIn</string>
+    <string name="settings_website">Website</string>
+    <string name="settings_open_source">Open source libraries</string>
+    <string name="settings_version">Version number</string>
+    <string name="no_browser_installed">You have no browser application installed.</string>
+    <string name="open_source">Open source libraries</string>
+    <string name="about_app">About app</string>
+    <string name="applications_information">Applications information</string>
+    <string name="connection_information">Connection information</string>
+    <string name="general_information">General information</string>
+    <string name="place_and_time">Place and Time</string>
+    <string name="software_information">Software information</string>
+    <string name="understand">I understand</string>
+    <string name="application_tutorial_1">Data Collect helps you to explore the data that apps and companies could collect from your device without requiring explicit permissions. For obvious reasons, the app is not requiring the Internet permission. This data is locally shown to you, and it is not collected by any third-party service.</string>
+    <string name="dont_want_to_see_again">Don\'t show this message again</string>
+    <string name="key_features">Key features</string>
+    <string name="key_features_1">• Dive deep into the details of the data collected by apps, organized into intuitive categories, helping you to make informed decisions.</string>
+    <string name="key_features_2">• Access and explore your device\'s data that does not require granting any additional permissions.</string>
+
+</resources>

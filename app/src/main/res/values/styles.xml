@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  region ToolBar  -->
+    <style name="MyTopAppBar" parent="Widget.Material3.Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="titleCentered">true</item>
+        <item name="android:background">@color/colorBackground</item>
+        <item name="android:fontFamily">@font/quicksand_regular</item>
+        <item name="fontFamily">@font/quicksand_regular</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.ActionBar</item>
+        <item name="titleTextAppearance">@style/TextAppearance.App.TitleLarge</item>
+    </style>
+
+    <style name="MyTopAppBar.Back">
+        <item name="navigationIcon">@drawable/ic_back</item>
+    </style>
+
+    <style name="TextAppearance.App.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">@font/quicksand_regular</item>
+        <item name="android:fontFamily">@font/quicksand_regular</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="ParagraphTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="fontFamily">@font/quicksand_medium</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="ParagraphText" parent="Widget.MaterialComponents.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="fontFamily">@font/quicksand_regular</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="ParagraphDescription" parent="Widget.MaterialComponents.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="fontFamily">@font/quicksand_regular</item>
+        <item name="android:gravity">end</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <!--  endregion  -->
+
+    <!--  region MyImageView styles  -->
+    <style name="MyCircleImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10%</item>
+    </style>
+
+    <style name="MyCircleImageView.Round">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="MyShapeableImageView">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="shapeAppearance">@style/MyCircleImageView</item>
+    </style>
+
+    <style name="MyShapeableImageView.Application">
+        <item name="android:padding">5dp</item>
+        <item name="shapeAppearance">@style/MyCircleImageView.Round</item>
+    </style>
+    <!-- endregion -->
+
+    <!--  region RecyclerView  -->
+    <style name="MyRecyclerView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:background">@color/colorBackground</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:overScrollMode">ifContentScrolls</item>
+        <item name="android:clipChildren">false</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:paddingStart">@dimen/recycler_view_padding</item>
+        <item name="android:paddingTop">@dimen/recycler_view_padding</item>
+        <item name="android:paddingEnd">@dimen/recycler_view_padding</item>
+        <item name="layoutManager">androidx.recyclerview.widget.GridLayoutManager</item>
+    </style>
+    <!--  endregion  -->
+
+    <!--  region MyTextView style  -->
+    <style name="MyTextView" parent="Widget.MaterialComponents.TextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/quicksand_medium</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:focusable">false</item>
+        <item name="android:textAppearance">?attr/textAppearanceBodyMedium</item>
+    </style>
+    <!--  endregion  -->
+
+    <!--  region MyButtons  -->
+    <style name="MyMaterialButtonFilled">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:backgroundTint">@color/primary</item>
+        <item name="rippleColor">@color/secondary</item>
+        <item name="android:textColor">@color/buttonTextColor</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:layout_marginEnd">12dp</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:fontFamily">@font/quicksand_bold</item>
+        <item name="android:maxWidth">@dimen/max_button_width</item>
+        <item name="shapeAppearance">?attr/shapeAppearanceCornerSmall</item>
+    </style>
+
+    <style name="MyMaterialButtonOutlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:layout_marginStart">12dp</item>
+        <item name="android:layout_marginEnd">12dp</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:fontFamily">@font/quicksand_bold</item>
+        <item name="android:maxWidth">@dimen/max_button_width</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="rippleColor">@color/white</item>
+        <item name="strokeColor">@color/primary</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="shapeAppearance">?attr/shapeAppearanceCornerSmall</item>
+    </style>
+
+    <style name="MyMaterialButtonOutlinedItems" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/quicksand_bold</item>
+        <item name="android:maxWidth">@dimen/max_button_width</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="strokeColor">@color/primary</item>
+        <item name="rippleColor">@color/secondary</item>
+        <item name="shapeAppearance">?attr/shapeAppearanceCornerSmall</item>
+    </style>
+    <!--  endregion  -->
+
+    <!--  region BottomNavigation -->
+    <style name="MyBottomNavigation" parent="Widget.Material3.BottomNavigationView">
+        <item name="itemActiveIndicatorStyle">@style/MyBottomNavigation.ActiveIndicator</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:elevation">3dp</item>
+        <item name="android:background">@color/colorBackground</item>
+        <item name="labelVisibilityMode">labeled</item>
+    </style>
+
+    <style name="MyBottomNavigation.ActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/primary_20</item>
+        <item name="android:textColor">@color/primary</item>
+    </style>
+    <!--  endregion  -->
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".presentation.main.home.HomeFragment">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/home_toolbar"
+        style="@style/MyTopAppBar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        app:title="@string/home_title" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/home_rv"
+        style="@style/MyRecyclerView"
+        android:layout_below="@id/home_toolbar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        tools:listitem="@layout/item_data_collect" />
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBackground"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Made with ❤️ by"
+            android:textColor="@color/textColor"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:layout_width="16sp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="4dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/logo_2morrow" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission
+        android:name="android.permission.QUERY_ALL_PACKAGES"
+        tools:ignore="QueryAllPackagesPermission" />
+
+    <uses-feature
+        android:name="android.hardware.usb.accessory"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.usb.host"
+        android:required="false" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Base.Theme.DataCollect"
+        tools:targetApi="31">
+        <activity
+            android:name=".presentation.tutorial_page.TutorialActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".presentation.main.settings.activities.AboutAppActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.main.settings.activities.OpenSourceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.software.SoftwareActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.connection.ConnectionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.place_and_time.PlaceAndTimeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.applications.AppListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.general.GeneralActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.main.MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

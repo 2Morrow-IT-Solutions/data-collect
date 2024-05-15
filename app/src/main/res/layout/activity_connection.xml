@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".presentation.connection.ConnectionActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/activity_connection_toolbar"
+        style="@style/MyTopAppBar.Back"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        app:title="@string/connection_information" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/activity_connection_rv"
+        style="@style/MyRecyclerView"
+        android:layout_below="@id/activity_connection_toolbar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:paddingStart="26dp"
+        android:paddingTop="26dp"
+        android:paddingEnd="26dp"
+        android:scrollbars="none" />
+
+</RelativeLayout>

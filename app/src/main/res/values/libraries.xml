@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="library_names">
+        <item>Dagger</item>
+        <item>Coroutines</item>
+        <item>Lifecycle</item>
+        <item>Preferences</item>
+        <item>Fragment</item>
+        <item>Navigation</item>
+        <item>Data Store</item>
+        <item>Splash Screen</item>
+    </string-array>
+
+    <string-array name="library_links">
+        <item>https://raw.githubusercontent.com/google/dagger/master/LICENSE.txt</item>
+        <item>https://raw.githubusercontent.com/Kotlin/kotlinx.coroutines/master/LICENSE.txt</item>
+        <item>https://raw.githubusercontent.com/android/architecture-components-samples/main/LICENSE</item>
+        <item>https://raw.githubusercontent.com/googlearchive/android-preferences/master/LICENSE</item>
+        <item>https://raw.githubusercontent.com/android/user-interface-samples/main/LICENSE</item>
+        <item>https://raw.githubusercontent.com/android/architecture-components-samples/main/NavigationBasicSample/LICENSE</item>
+        <item>https://raw.githubusercontent.com/android/codelab-android-datastore/master/LICENSE</item>
+        <item>https://raw.githubusercontent.com/android/nowinandroid/main/LICENSE</item>
+    </string-array>
+
+</resources>
