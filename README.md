@@ -24,7 +24,7 @@ helping you to make informed decisions.
   Kotlin, and Android.
   <https://dagger.dev/>
 
-- Lifecycle 2.7.0 - Lifecycle-aware components perform actions in response to a change in the
+- Lifecycle 2.8.0 - Lifecycle-aware components perform actions in response to a change in the
   lifecycle status of another component, such as activities and fragments.
   <https://developer.android.com/jetpack/androidx/releases/lifecycle>
 
@@ -40,7 +40,7 @@ helping you to make informed decisions.
   storage or manage the UI.
   <https://developer.android.com/jetpack/androidx/releases/preference>
 
-- Fragment-ktx 1.6.2 - Segment your app into multiple, independent screens that are hosted within an
+- Fragment-ktx 1.7.1 - Segment your app into multiple, independent screens that are hosted within an
   Activity.
   <https://developer.android.com/jetpack/androidx/releases/fragment>
 
